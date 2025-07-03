@@ -29,11 +29,18 @@ nav {
   align-items: center;
   color: #fff;
   font-family: sans-serif;
-  padding-top: 15px;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  /* background: #54320f; */
+  background: #deab5f;
 }
 
 .logo-name {
-    color: #deab5f;
+    /* color: #deab5f; */
+    color: #54320f;
 }
 
 li {
